@@ -3,8 +3,8 @@
 
 ### Parte I. -Jugando a ser un cliente HTTP
 > * Realizamos una conexión síncronica TCP/IP a través de Telnet al servidor:
-> *     Host: ```www.escuelaing.edu.co```
-> *       Puerto: ```80```
+> Host: ```www.escuelaing.edu.co```
+> Puerto: ```80```
 > 
 > * Realizamos una petición GET con el recurso ```sssss/abc.html``` , versión ```1.0 de HTTP```
 > 
