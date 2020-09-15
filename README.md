@@ -6,6 +6,7 @@
 > * Host: ```www.escuelaing.edu.co```
 > * Puerto: ```80```
 > 
+
 > Realizamos una petición GET con el recurso ```sssss/abc.html``` , versión ```1.0 de HTTP```
 > 
 > 
