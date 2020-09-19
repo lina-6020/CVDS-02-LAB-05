@@ -9,9 +9,9 @@ import java.util.ArrayList;
 
 import static java.lang.Math.sqrt;
 
-@ManagedBean(name="CalculadoraBean")
+@ManagedBean(name="Calculadora")
 @ApplicationScoped
-public class CalculadoraBean{
+public class Calculadora{
 	private int longitud;
 	private double varianza;
 	private double estandar;

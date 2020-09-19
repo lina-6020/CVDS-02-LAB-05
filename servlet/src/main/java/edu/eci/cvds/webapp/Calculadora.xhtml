@@ -13,15 +13,15 @@
 			<h:outputLabel value="Entrada:"/> 
 			<h:inputText id="lista" type="text" binding="#{input}" /> 
 			<h:outputLabel value="Moda:" />
-			<h:outputLabel value="#{CalculadoraBean.modo}" />
+			<h:outputLabel value="#{Calculadora.modo}" />
 			<h:outputLabel value="Media:" />
-			<h:outputLabel value="#{CalculadoraBean.simbolo}" />
+			<h:outputLabel value="#{Calculadora.simbolo}" />
 			<h:outputLabel value="Desviacion Estandar:" />
-			<h:outputLabel value="#{CalculadoraBean.estandar}" />
+			<h:outputLabel value="#{Calculadora.estandar}" />
 			<h:outputLabel value="Varianza:" />
-			<h:outputLabel value="#{CalculadoraBean.varianza}" />
-			<h:commandButton value="Calcular"  update="Calculadora_form" actionListener="#{CalculadoraBean.calcular(input.value)}"/>
-		    <h:commandButton value="Reiniciar" update="Calculadora_form" actionListener="#{CalculadoraBean.reiniciar}"/>
+			<h:outputLabel value="#{Calculadora.varianza}" />
+			<h:commandButton value="Calcular"  update="Calculadora_form" actionListener="#{Calculadora.calcular(input.value)}"/>
+		    <h:commandButton value="Reiniciar" update="Calculadora_form" actionListener="#{Calculadora.reiniciar}"/>
 		</h:panelGrid>
 		
 	</h:form>
