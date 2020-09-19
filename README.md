@@ -27,12 +27,24 @@ El servidor no puede o no puede procesar la solicitud debido a un aparente error
 > _301 Moved Permanently
 El host ha sido capaz de comunicarse con el servidor pero que el recurso solicitado ha sido movido a otra dirección permanentemente._
 
-> **¿Qué otros códigos de error existen?
+> **¿Qué otros códigos de error existen?**
 > * _1xx informational response_
 > * _2xx sucess_
 > * _3xx redirection_
 > * _4xx client errors_
 > * _5xx server errors_
+
+> Realizamos una  nueva conexión:
+
+
+> ``` telnet www.httpbin.orh 80 ```
+
+> ![image](https://user-images.githubusercontent.com/59893804/93660829-97227b80-fa18-11ea-844d-e4b5c47f2acc.png)
+
+> Realizamos una petición GET con el recurso 
+
+
+> ``` GET /html HTTP/1.1 ```
 
 
 
