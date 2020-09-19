@@ -7,6 +7,8 @@
 > * Puerto: ```80``` 
 > ``` telnet www.escuelaing.edu.co 80 ``` 
 > ![image](https://user-images.githubusercontent.com/59893804/93660244-4b6cd380-fa12-11ea-94d1-5d95016488bd.png)
+> 
+
 > Realizamos una petición GET con el recurso 
 >* ```sssss/abc.html``` , versión ```1.0 de HTTP```
 >* ``` GET sssss/abc.html HTTP/1.0
