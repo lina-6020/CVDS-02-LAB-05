@@ -12,10 +12,15 @@
 > 
 
 > Realizamos una petición GET con el recurso 
->* ```sssss/abc.html``` , versión ```1.0 de HTTP```
->* ``` GET sssss/abc.html HTTP/1.0
+
+
+> ``` GET sssss/abc.html HTTP/1.0 ```
+
+
 > Obtenemos los siguientes errores
-> ![image](https://user-images.githubusercontent.com/59893804/93660276-a8688980-fa12-11ea-9475-cebf35520139.png)
+
+> ![image](https://user-images.githubusercontent.com/59893804/93660615-7ce79e00-fa16-11ea-9aa7-4bf5000b8b3b.png)
+> 
 > _400 BAD REQUEST
 El servidor no puede o no puede procesar la solicitud debido a un aparente error del cliente._
 
