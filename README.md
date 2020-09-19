@@ -2,9 +2,7 @@
 ## Introducción a proyectos Web
 
 ### Parte I. -Jugando a ser un cliente HTTP
-> Realizamos una conexión síncronica TCP/IP a través de Telnet al servidor:
-* Host: ```www.escuelaing.edu.co``` 
-* Puerto: ```80``` 
+> Realizamos una conexión síncronica TCP/IP a través de Telnet al servidor: 
 ``` telnet www.escuelaing.edu.co 80 ``` 
 ![image](https://user-images.githubusercontent.com/59893804/93660244-4b6cd380-fa12-11ea-94d1-5d95016488bd.png)
 > 
