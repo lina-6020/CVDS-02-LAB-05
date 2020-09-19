@@ -46,6 +46,24 @@ El host ha sido capaz de comunicarse con el servidor pero que el recurso solicit
 
 > ``` GET /html HTTP/1.1 ```
 
+> Obtenemos lo siguiente 
+
+> ![image](https://user-images.githubusercontent.com/59893804/93660880-eff21400-fa18-11ea-8593-10b85bede7c1.png)
+
+> Seleccionamos el contenido ```HTML``` y contamos el número de caracteres con **wc -c = 3601*
+
+> **¿Cuál es la diferencia entre los verbos GET y POST? ¿Qué otros tipos de peticiones existen?**
+> Una de las diferencias entre **GET** y **POST** es que el método GET lleva los datos usando la URL de forma visible, el método POST los envía de forma que no podemos verlos (en un segundo plano u "ocultos" al usuario).
+
+> Hacemos peticiones con el comando ```curl```
+
+> ``` curl www.httpbin.org ```
+
+> ![image](https://user-images.githubusercontent.com/59893804/93660992-f208a280-fa19-11ea-8dbe-6e55d2622d92.png)
+
+
+> ``` curl -v www.httpbin.org ```
+> ``` curl -i www.httpbin.org ```
 
 
 
