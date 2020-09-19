@@ -33,6 +33,7 @@ public class mineServlet extends HttpServlet  {
 		    resp.setStatus(HttpServletResponse.SC_OK);
 		    responseWriter.write(Service.todosToHTMLTable(listaTodos));
 		    responseWriter.flush();   
+			System.out.println("entra");
 		    
 	    }catch (java.lang.NumberFormatException e) {
 			responseWriter.write("Requerimiento inv�lido");

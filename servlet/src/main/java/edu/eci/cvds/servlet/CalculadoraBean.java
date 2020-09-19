@@ -1,4 +1,5 @@
 package edu.eci.cvds.servlet;
+import edu.eci.cvds.servlet.model.Todo;
 import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.ManagedBean;
 import javax.swing.JOptionPane;
@@ -8,9 +9,9 @@ import java.util.ArrayList;
 
 import static java.lang.Math.sqrt;
 
-@ManagedBean(name="calculator")
+@ManagedBean(name="CalculadoraBean")
 @ApplicationScoped
-public class Calculator {
+public class CalculadoraBean{
 	private int longitud;
 	private double varianza;
 	private double estandar;
